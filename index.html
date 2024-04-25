@@ -1,36 +1,35 @@
-<!DOCTYPE html>
 <html>
 <head>
  <style>
  body {
  background-color: #ff6347; /* Change to your desired color */
  font-family: Arial, sans-serif;
-}
+ }
 
-header {
+ header {
  background-color: #333;
  color: #fff;
  padding: 10px;
  text-align: center;
-}
+ }
 
-header a {
+ header a {
  color: #fff;
  text-decoration: none;
  margin: 0 5px;
-}
+ }
 
-header a:hover {
+ header a:hover {
  color: #ccc;
-}
+ }
 
-.product-container {
+ .product-container {
  display: flex;
  justify-content: space-around;
  flex-wrap: wrap;
-}
+ }
 
-.product {
+ .product {
  background-color: #fff;
  border-radius: 5px;
  box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -38,31 +37,31 @@ header a:hover {
  width: 30%;
  margin-bottom: 20px;
  text-align: center;
-}
+ }
 
-.product img {
+ .product img {
  width: 100%;
  height: auto;
  border-radius: 5px;
  margin-bottom: 10px;
-}
+ }
 
-.product h3 {
+ .product h3 {
  margin: 0 0 10px;
-}
+ }
 
-.product p {
+ .product p {
  margin: 0;
-}
+ }
 
-footer {
+ footer {
  background-color: #333;
  color: #fff;
  padding: 10px;
  text-align: center;
-}
+ }
 
-form {
+ form {
  background-color: #fff;
  border-radius: 5px;
  box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -70,33 +69,33 @@ form {
  width: 30%;
  margin: 0 auto;
  margin-top: 20px;
-}
+ }
 
-form h4 {
+ form h4 {
  margin: 0 0 10px;
-}
+ }
 
-label {
+ label {
  display: block;
  margin: 10px 0;
-}
+ }
 
-input[type="text"], input[type="email"] {
+ input[type="text"], input[type="email"] {
  width: 100%;
  padding: 10px;
  border-radius: 5px;
  border: 1px solid #ccc;
-}
+ }
 
-textarea {
+ textarea {
  width: 100%;
  padding: 10px;
  border-radius: 5px;
  border: 1px solid #ccc;
  margin-top: 10px;
-}
+ }
 
-input[type="submit"] {
+ input[type="submit"] {
  background-color: #ff6347;
  color: #fff;
  padding: 10px;
@@ -104,18 +103,17 @@ input[type="submit"] {
  border-radius: 5px;
  cursor: pointer;
  margin-top: 10px;
-}
+ }
 
-input[type="submit"]:hover {
+ input[type="submit"]:hover {
  background-color: #e64a33;
-}
+ }
  </style>
 </head>
 <body>
  <header>
  <a href="#">Home</a>
- <a href="#">Product</a>
- <a href="#">Contact</a>
+ <button style="background-color: #ff6347; color: #fff; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">Add to Cart</button>
  </header>
 
  <div class="product-container">
@@ -124,10 +122,11 @@ input[type="submit"]:hover {
  <h3>Product 1</h3>
  <p>$99.99</p>
  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
- <button style="background-color: #ff6347; color: #fff; padding: 10px; border: none; border-radius: 5px; cursor: pointer;">Add to Cart</button>
+ </div>
  </div>
 
- <div class="product">
- <img src="https://via.placeholder.com/300x300" alt="Product 2">
- <h3>Product 2</h3>
- <p>$
+ <footer>
+ Copyright © 2023 E-Commerce Company
+ </footer>
+</body>
+</html>
